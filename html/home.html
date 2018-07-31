@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-row">
+				<div class="mui-col-xs-6">
+					<button id="camera">相机</button>
+				</div>
+				<div class="mui-col-xs-6">
+					<!--<button id="camera">相机</button>-->
+				</div>
+			</div>
+		</div>
+		
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui("#camera").on('tap',function(){
+				console.log('123');
+			})
+		</script>
+	</body>
+
+</html>
